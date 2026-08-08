@@ -1,0 +1,34 @@
+# Keil build output
+MDK-ARM/Template/
+MDK-ARM/DebugConfig/
+*.uvguix.*
+*.dep
+*.lst
+*.o
+*.axf
+*.htm
+*.bak
+*.crf
+*.d
+*.iex
+*.sct
+
+# Build logs
+MDK-ARM/*.log
+
+# Local workflow tooling (not part of the firmware project)
+.trellis/
+.claude/
+.codex/
+.agents/
+AGENTS.md
+
+# Tool scratch directories
+.codex_docx_render/
+.codex_pdf_images/
+tmp/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
