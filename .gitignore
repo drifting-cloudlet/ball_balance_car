@@ -32,3 +32,8 @@ tmp/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Python (MaixCAM apps: ap_trans, ball_position)
+__pycache__/
+*.pyc
+dist/

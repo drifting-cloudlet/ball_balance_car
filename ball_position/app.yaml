@@ -1,0 +1,10 @@
+id: ball_position
+name: Ball Position
+name[zh]: 钢珠位置
+version: 0.3.0
+icon: null
+author: liuargo
+desc: Detect the steel-ball position and send it to the controller over UART0.
+desc[zh]: 检测钢珠位置并通过 UART0 逐帧发送给主控，支持触屏采集图片。
+files:
+  - main.py
